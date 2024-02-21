@@ -32410,6 +32410,30 @@ const data3: Protocol[] = [
     audit_links: ["https://doc.orby.network/overview/security-and-audits"],
     listedAt: 1708475032
   },
+  {
+    id: "4155",
+    name: "Goat Protocol",
+    address: "arbitrum:0x8c6Bd546fB8B53fE371654a0E54D7a5bD484b319",
+    symbol: "GOA",
+    url: "https://goat.fi/",
+    description:
+      "The Goat Protocol is a decentralized yield optimizer. It allows users, DAOs and other protocols earn the  yield on their digital assets by auto compounding the rewards into more of what they've deposited.",
+    chain: "Arbitrum",
+    logo: `${baseIconsUrl}/goat-protocol.jpg`,
+    audits: "2",
+    audit_note: null,
+    gecko_id: null,
+    cmcId: null,
+    category: "Yield Aggregator",
+    chains: ["Arbitrum"],
+    module: "goat-protocol/index.js",
+    twitter: "goatfidao",
+    forkedFrom: ["Beefy"],
+    oracles: [],
+    audit_links: ["https://github.com/goatfi/audits"],
+    github: ["goatfi"],
+    listedAt: 1708502700
+  },
 ]
 
 export default data3
